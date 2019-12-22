@@ -30,6 +30,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -58,7 +59,8 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	WordCount,
-	Mention
+	Mention,
+	SimpleUploadAdapter
 ];
 
 // Editor configuration.
