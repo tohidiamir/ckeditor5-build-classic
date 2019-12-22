@@ -57,7 +57,7 @@ ClassicEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	WordCount ,
+	WordCount,
 	Mention
 ];
 
